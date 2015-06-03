@@ -1,0 +1,50 @@
+// Simulation Description (not used by SRH-2D):
+straight channel case
+// Module/Solver Selected (FLOW MORP MOB TEM TC)
+FLOW                                                                                                                                                                                                                                                                                                        
+// Monitor-Point-Info: NPOINT
+1                                                                                                                                                                                                                                                                                                           
+// Coordinates of Monitoring Points: x1 y1 x2 y2 ...
+9.5 1.5 
+// Steady-or-Unsteady (STEADY/UNS)
+STEADY                                                                                                                                                                                                                                                                                                      
+// Tstart Time_Step and Total_Simulation_Time: TSTART DT T_SIMU [FLAG]
+0 0.01 0.5                                                                                                                                                                                                                                                                                                     
+// Turbulence-Model-Selection(PARA or KE)
+PARA                                                                                                                                                                                                                                                                                                        
+// A_TURB for the PARA Model (0.05 to 1.0)
+0.                                                                                                                                                                                                                                                                                                         
+// Initial Condition Method (DRY RST AUTO ZONAL)
+DRY                                                                            
+// Mesh-Unit (FOOT METER INCH MM MILE KM)
+METER                                                                                                                                                                                                                                                                                                       
+// Mesh FILE_NAME and FORMAT(SMS...)
+gmsh_straight.2dm SMS       
+// Manning Roughness Input Method(1=constant 2=material-type 3=(x y) distributed
+1                                                                                                                                                                                                                                                                                                           
+// Constant Manning Coefficient
+0.03                                                                            
+// Any-Special-Treatments? (0 or empty = NO; 1=YES)
+0                                                                                
+// Boundary Type (INLET-Q EXIT-H etc)
+INLET-Q                                                                                                                                                                                                                                                                                                     
+// Boundary Values (Q W QS TEM H_rough etc)
+1.5 SI                                                                                                                                                                                                                                                                                                       
+// Boundary Type (INLET-Q EXIT-H etc)
+EXIT-H                                                                                                                                                                                                                                                                                                      
+// Boundary Values (Q W QS TEM H_rough etc)
+1 SI                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+// Boundary Type (INLET-Q EXIT-H etc)
+WALL                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+// Boundary Type (INLET-Q EXIT-H etc)
+WALL 
+// Wall-Roughess-Height-Specification (empty-line=DONE)
+
+// Any In-Stream Flow Obstructions? (empty-line or 0 = NO)
+  
+// Results-Output-Format-and-Unit(SRHC/TEC/SRHN/XMDF;SI/EN)
+TEC SI                                                                                                                                                                                                                                                                                                      
+// Headers of Output Variables specified by the User: EMPTY line means default is used
+ 
+// Intermediate Result Output Control: INTERVAL(hour) OR List of T1 T2 ...  EMPTY means the end
+0.1                                                                                                                                                                                                                                                                                                        

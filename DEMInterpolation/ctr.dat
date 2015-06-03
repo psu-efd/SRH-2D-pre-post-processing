@@ -1,0 +1,6 @@
+"DEM data file name"
+"bathy.dat"
+"mesh file format: 1. gmsh  2. gambit neutral"
+1
+"mesh file name (don't include the .neu or .msh"
+"bend"
