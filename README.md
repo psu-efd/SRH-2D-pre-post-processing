@@ -10,6 +10,8 @@ Department of Civil and Environmental Engineering
 
 Penn State University
 
+Web: [http://water.engr.psu.edu/liu/] (http://water.engr.psu.edu/liu/)
+
 What is this repository about?
 ------------------------------------------------------------
 Here are the lecture notes and cases I use for a training course on the SRH-2D model. The aim is to use open source tools to do the pre- and post-processing work for SRH-2D. This is a (free) alternative to other commercial pre/post processing tools for SRH-2D.
@@ -32,7 +34,7 @@ It is noted that these pre-processing steps are sometime tricky.
 
 General post-processing steps:
 ------------------------------------------------------------
-0. Paraview can load the SRH-2D results (in Tecplot) format directly. So almost zero learning curve.
+0. Paraview can load the SRH-2D results (in Tecplot) format directly. So almost flat learning curve.
 
 Who should be interested?
 -----------------------------------------------------------
